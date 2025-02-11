@@ -21,6 +21,10 @@ import SandaliaGuessRoja from "../assets/Calzado/SandaliaGuessRoja.jpg"
 import ZapatoRYRAbierto from "../assets/Calzado/ZapatoRYRAbierto.jpg"
 import ZapatoRYRCerrado from "../assets/Calzado/ZapatoRYRCerrado.jpg"
 import SandaliaMaddenVerde from "../assets/Calzado/SandaliaMaddenVerde.jpg"
+import SandaliaCalvinKleinMarrones from "../assets/Calzado/SandaliaCalvinKleinMarrones.jpg"
+import SandaliaMichaelKorsAzules from "../assets/Calzado/SandaliaMichaelKorsAzules.jpg"
+import SandaliaKarlLegerfeldParis from "../assets/Calzado/SandaliaKarlLegerfeldParis.jpg"
+import SandaliaPlataformaGuessNegra from "../assets/Calzado/SandaliaPlataformaGuessNegra.jpg"
 
 const productos = [
     {
@@ -198,6 +202,38 @@ const productos = [
         categoria: 'Calzado',
         imagen: SandaliaMaddenVerde,
         link: 'https://wa.link/veuamg',
+    },
+    {
+        id: 23,
+        nombre: 'Sandalia Michael Kors Azules',
+        precio: 99.90,
+        categoria: 'Calzado',
+        imagen: SandaliaMichaelKorsAzules,
+        link: 'https://wa.link/6ohe66',
+    },
+    {
+        id: 24,
+        nombre: 'Sandalia Calvin Klein Marrones',
+        precio: 74.90,
+        categoria: 'Calzado',
+        imagen: SandaliaCalvinKleinMarrones,
+        link: 'https://wa.link/ts6x7x',
+    },
+    {
+        id: 25,
+        nombre: 'Sandalia Plataforma Guess Negra',
+        precio: 114.90,
+        categoria: 'Calzado',
+        imagen: SandaliaPlataformaGuessNegra,
+        link: 'https://wa.link/w6lml2',
+    },
+    {
+        id: 26,
+        nombre: 'Sandalia Karl Legerfeld Paris',
+        precio: 159.90,
+        categoria: 'Calzado',
+        imagen: SandaliaKarlLegerfeldParis,
+        link: 'https://wa.link/anh917',
     },
 
 ]
