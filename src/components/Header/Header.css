@@ -1,0 +1,164 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0vw 2vw;
+  background-color: #fffdf7;
+  color: rgb(0, 0, 0);
+  position: relative;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.nombreUsalo {
+  color: rgb(0, 0, 0) !important;
+  text-decoration: none !important;
+  font-weight: bold;
+  margin-left: 5vw;
+  font-size: 50px;
+}
+
+.header-logo img {
+  margin-right: 15px;
+  border-radius: 50%;
+  width: 8vw;
+  height: 8vw;
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  margin-left: 30px;
+}
+
+.header-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Barra de búsqueda centrada */
+.search-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 50%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.search-btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Botón del menú Hamburger */
+.hamburger-btn {
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #000;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hamburger-btn:active {
+  transform: rotate(90deg);
+}
+
+.hamburger-btn:hover {
+  color: #007bff;
+}
+
+/* Menú de categorías */
+.category-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffefb9;
+  padding: 15px;
+  position: fixed;
+  top: 100px;
+  right: 0px;
+  height: auto;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.category-menu p {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.category-menu p:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Responsivo */
+@media screen and (max-width: 768px) {
+  .header-top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header-logo img {
+    width: 12vw;
+    height: 12vw;
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+  .search-input {
+    width: 80%;
+  }
+
+  .category-menu {
+    width: 250px;
+    top: 100px;
+  }
+}

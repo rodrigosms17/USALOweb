@@ -1,0 +1,21 @@
+.nosotros {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .nosotros h2 {
+    color: #004080;
+    font-size: 2.5rem;
+  }
+  
+  .nosotros h3 {
+    color: #003366;
+    margin-top: 20px;
+  }
+  
+  .nosotros p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  

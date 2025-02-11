@@ -1,0 +1,92 @@
+.homepage {
+    background-color: #fffdf7;  /* Color de fondo claro */
+    min-height: 100vh;  /* Aseguramos que ocupe todo el alto de la pantalla */
+    display: flex;
+    flex-direction: column;
+}
+  
+.productos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Centramos los productos */
+    padding: 20px; /* Agregamos un poco de espacio alrededor */
+}
+  
+.producto {
+    background-color: #fff; /* Fondo blanco para cada producto */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregamos sombra */
+    text-align: center;
+    width: 220px;  /* Un ancho fijo para los productos */
+    transition: transform 0.2s ease-in-out; /* Animación en hover */
+}
+  
+.producto:hover {
+    transform: scale(1.05);  /* Aumentamos el tamaño al pasar el mouse */
+}
+  
+.producto img {
+    width: 150px;  /* Establecemos un tamaño más pequeño para las imágenes */
+    height: auto;  /* Mantenemos la proporción de la imagen */
+    object-fit: cover;  /* Aseguramos que la imagen se recorte bien si es necesario */
+    border-radius: 10px;  /* Bordes redondeados */
+}
+  
+.producto h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(68, 69, 69);
+    margin: 10px 0; /* Espaciado */
+}
+  
+.precio {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px; /* Espaciado superior */
+}
+  
+.mensaje-movil {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+  }
+  @media screen and (max-width: 768px) {
+    .productos-lista {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Dos productos por fila */
+        gap: 10px; /* Espaciado entre productos */
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .producto {
+        width: 80%; /* Ocuparán el 100% de su celda en el grid */
+        padding: 20px;
+    }
+
+    .producto img {
+        width: 100px; /* Ajustamos el tamaño de la imagen */
+    }
+
+    .producto h3 {
+        font-size: 14px; /* Reducimos el tamaño del título */
+    }
+
+    .precio {
+        font-size: 14px; /* Ajustamos el tamaño del precio */
+    }
+
+    .mensaje-movil {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+
+  

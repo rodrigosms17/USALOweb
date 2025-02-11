@@ -1,0 +1,112 @@
+.detalles-producto {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 10px auto;
+  background-color: #fffdf7;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar todo */
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.categoria {
+  font-size: 1rem;
+  color: #555;
+}
+
+.precio {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.producto-imagen {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  margin: 20px auto;
+}
+
+/* Botón de WhatsApp */
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.whatsapp-button:hover {
+  background-color: #1EBE5D;
+}
+
+/* Botón de regresar */
+.boton-regresar {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.boton-regresar:hover {
+  background-color: #bbb;
+  color: black;
+}
+
+/* --- Estilos para dispositivos móviles --- */
+@media screen and (max-width: 480px) {
+  .detalles-producto {
+    padding: 15px;
+    max-width: 90%;
+    border-radius: 5px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .categoria {
+    font-size: 0.9rem;
+  }
+
+  .precio {
+    font-size: 1.3rem;
+  }
+
+  .producto-imagen {
+    max-width: 150px;
+  }
+
+  .whatsapp-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .boton-regresar {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+}
