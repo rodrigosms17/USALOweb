@@ -47,7 +47,7 @@ const Header = ({ setBusqueda, setCategoriaSeleccionada }) => { // Se recibe set
         <div className="category-menu">
           <p onClick={() => seleccionarCategoria("")}>Todos</p>
           <p onClick={() => seleccionarCategoria("Perfumes")}>Perfumes</p>
-          <p onClick={() => seleccionarCategoria("Carteras")}>Carteras</p>
+          <p onClick={() => seleccionarCategoria("Accesorios")}>Accesorios</p>
           <p onClick={() => seleccionarCategoria("Calzado")}>Calzado</p>
         </div>
       )}
