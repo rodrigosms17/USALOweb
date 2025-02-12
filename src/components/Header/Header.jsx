@@ -49,6 +49,8 @@ const Header = ({ setBusqueda, setCategoriaSeleccionada }) => { // Se recibe set
           <p onClick={() => seleccionarCategoria("Perfumes")}>Perfumes</p>
           <p onClick={() => seleccionarCategoria("Accesorios")}>Accesorios</p>
           <p onClick={() => seleccionarCategoria("Calzado")}>Calzado</p>
+          <p onClick={() => seleccionarCategoria("Hogar")}>Hogar</p>
+          <p onClick={() => seleccionarCategoria("Higiene")}>Higiene</p>
         </div>
       )}
     </header>

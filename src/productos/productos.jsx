@@ -4,7 +4,7 @@ import LattafaPerfumedSpray from "../assets/Perfumes/LattafaPerfumedSpray.jpg"
 import SteveMadenCarteraRosa from "../assets/Accesorios/SteveMadenCarteraRosa.jpg"
 import SteveMadenCarteraCrema from "../assets/Accesorios/SteveMadenCarteraCrema.jpg"
 import USPoloZapatillaNegra from "../assets/Calzado/USPoloZapatillaNegra.jpg"
-import TommyHilfigerCarteraBlanca from "../assets/Accesorios/TommyHilfigerCarteraBlanca.jpg"
+import TommyHilfigerMorralBlanca from "../assets/Accesorios/TommyHilfigerMorralBlanca.jpg"
 import SteveMaidenLoncheraNegra from "../assets/Accesorios/SteveMaidenLoncheraNegra.jpg"
 import QuiksilverSandaliaNegra from "../assets/Calzado/QuiksilverSandaliaNegra.jpg"
 import LattafaSublime from "../assets/Perfumes/LattafaSublime.jpg"
@@ -25,6 +25,24 @@ import SandaliaCalvinKleinMarrones from "../assets/Calzado/SandaliaCalvinKleinMa
 import SandaliaMichaelKorsAzules from "../assets/Calzado/SandaliaMichaelKorsAzules.jpg"
 import SandaliaKarlLegerfeldParis from "../assets/Calzado/SandaliaKarlLegerfeldParis.jpg"
 import SandaliaPlataformaGuessNegra from "../assets/Calzado/SandaliaPlataformaGuessNegra.jpg"
+import SandaliaKarlLegerfeldbrillo from "../assets/Calzado/SandaliaKarlLegerfeldBrillo.jpg"
+import SandaliaGBGBlanca from "../assets/Calzado/SandaliaGBGBlanca.jpg"
+import Taper4Compartimentos from "../assets/Hogar/Taper4Compartimentos.jpg"
+import Taper7Compartimentos from "../assets/Hogar/Taper7Compartimentos.jpg"
+import BodyWashBYB from "../assets/Higiene/BodyWashBYB.jpg"
+import ZapatillaGBGBlanca from "../assets/Calzado/ZapatillaGBGBlanca.jpg"
+import AirPodsCase from "../assets/Accesorios/AirPodsCase.jpg"
+import IphoneCase from "../assets/Accesorios/IphoneCase.jpg"
+import MorralGuessNegro from "../assets/Accesorios/MorralGuessNegro.jpg"
+import NeceserGuessNegro from "../assets/Accesorios/NeceserGuessNegro.jpg"
+import BilleteraGuessNegra from "../assets/Accesorios/BilleteraGuessNegra.jpg"
+import BilleteraGuessNegraBolsillo from "../assets/Accesorios/BilleteraGuessNegraBolsillo.jpg"
+import BilleteraColumbiaBolsillo from "../assets/Accesorios/BilleteraColumbiaBolsillo.jpg"
+import TommyHilfigerCarteraBlanca from "../assets/Accesorios/TommyHilfigerCarteraBlanca.jpg"
+import SombreroQuiksilver from "../assets/Accesorios/SombreroQuiksilver.jpg"
+import VSPack12Mini from "../assets/Perfumes/VSPack12Mini.jpg"
+import VSPack4Mini from "../assets/Perfumes/VSPack4Mini.jpg"
+
 
 const productos = [
     {
@@ -85,10 +103,10 @@ const productos = [
     },
     {
         id: 8,
-        nombre: 'Tommy Hilfiger Cartera Blanca',
+        nombre: 'Tommy Hilfiger Morral Blanca',
         precio: 149.90,
         categoria: 'Accesorios',
-        imagen: TommyHilfigerCarteraBlanca,
+        imagen: TommyHilfigerMorralBlanca,
         link: 'https://wa.link/4odfom',
     },
     {
@@ -229,12 +247,149 @@ const productos = [
     },
     {
         id: 26,
-        nombre: 'Sandalia Karl Legerfeld Paris',
+        nombre: 'Sandalia Karl Lagerfeld Paris',
         precio: 159.90,
         categoria: 'Calzado',
         imagen: SandaliaKarlLegerfeldParis,
         link: 'https://wa.link/anh917',
     },
+    {
+        id: 27,
+        nombre: 'Sandalia Karl Lagerfeld brillo',
+        precio: 59.90,
+        categoria: 'Calzado',
+        imagen: SandaliaKarlLegerfeldbrillo,
+        link: 'https://wa.link/fmlpdi',
+    },
+    {
+        id: 28,
+        nombre: 'Sandalia GBG Blancas',
+        precio: 74.90,
+        categoria: 'Calzado',
+        imagen: SandaliaGBGBlanca,
+        link: 'https://wa.link/fsi8eb',
+    },
+    {
+        id: 29,
+        nombre: 'Tapers Tasty 4 compartimentos',
+        precio: 44.90,
+        categoria: 'Hogar',
+        imagen: Taper4Compartimentos,
+        link: 'https://wa.link/v7knld',
+    },
+    {
+        id: 30,
+        nombre: 'Tapers Tasty 7 compartimentos',
+        precio: 54.90,
+        categoria: 'Hogar',
+        imagen: Taper7Compartimentos,
+        link: 'https://wa.link/vlk9jg',
+    },
+    {
+        id: 31,
+        nombre: 'Body Wash Bath & Body',
+        precio: 44.90,
+        categoria: 'Higiene',
+        imagen: BodyWashBYB,
+        link: 'https://wa.link/nkao97',
+    },
+    {
+        id: 32,
+        nombre: 'Zapatilla GBG Blanca',
+        precio: 204.90,
+        categoria: 'Calzado',
+        imagen: ZapatillaGBGBlanca,
+        link: 'https://wa.link/hvk0b6',
+    },
+    {
+        id: 33,
+        nombre: 'AirPodsCase',
+        precio: 44.90,
+        categoria: 'Accesorios',
+        imagen: AirPodsCase,
+        link: 'https://wa.link/ifm6t2',
+    },
+    {
+        id: 34,
+        nombre: 'IphoneCase',
+        precio: 44.90,
+        categoria: 'Accesorios',
+        imagen: IphoneCase,
+        link: 'https://wa.link/z4sbjy',
+    },
+    {
+        id: 35,
+        nombre: 'Morral Guess Negro',
+        precio: 184.90,
+        categoria: 'Accesorios',
+        imagen: MorralGuessNegro,
+        link: 'https://wa.link/3k4pws',
+    },
+    {
+        id: 36,
+        nombre: 'Neceser Guess Negro',
+        precio: 99.90,
+        categoria: 'Accesorios',
+        imagen: NeceserGuessNegro,
+        link: 'https://wa.link/o11jlp',
+    },
+    {
+        id: 37,
+        nombre: 'Billetera Guess Negra',
+        precio: 149.90,
+        categoria: 'Accesorios',
+        imagen: BilleteraGuessNegra,
+        link: 'https://wa.link/uu52dt',
+    },
+    {
+        id: 38,
+        nombre: 'Billetera Guess Negra Bolsillo',
+        precio: 109.90,
+        categoria: 'Accesorios',
+        imagen: BilleteraGuessNegraBolsillo,
+        link: 'https://wa.link/fklj3g',
+    },
+    {
+        id: 39,
+        nombre: 'Billetera Columbia Bolsillo',
+        precio: 99.90,
+        categoria: 'Accesorios',
+        imagen: BilleteraColumbiaBolsillo,
+        link: 'https://wa.link/53pdzt',
+    },
+    {
+        id: 40,
+        nombre: 'Tommy Hilfiger Cartera Blanca',
+        precio: 149.90,
+        categoria: 'Accesorios',
+        imagen: TommyHilfigerCarteraBlanca,
+        link: 'https://wa.link/n0ujp4',
+    },
+    {
+        id: 41,
+        nombre: 'Sombrero Quiksilver',
+        precio: 99.90,
+        categoria: 'Accesorios',
+        imagen: SombreroQuiksilver,
+        link: 'https://wa.link/hapz4x',
+    },
+    {
+        id: 42,
+        nombre: 'Victorias Secret Pack 12 Mini',
+        precio: 374.90,
+        categoria: 'Accesorios',
+        imagen: VSPack12Mini,
+        link: 'https://wa.link/m2w1g4',
+    },
+    {
+        id: 43,
+        nombre: 'Victorias Secret Pack 4 Mini',
+        precio: 139.90,
+        categoria: 'Accesorios',
+        imagen: VSPack4Mini,
+        link: 'https://wa.link/xos99k',
+    },
+
 
 ]
 export default productos;

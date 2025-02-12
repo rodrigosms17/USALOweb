@@ -19,7 +19,7 @@
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregamos sombra */
     text-align: center;
-    width: 220px;  /* Un ancho fijo para los productos */
+    width: 250px;  /* Un ancho fijo para los productos */
     transition: transform 0.2s ease-in-out; /* Animación en hover */
 }
   
@@ -28,7 +28,7 @@
 }
   
 .producto img {
-    width: 150px;  /* Establecemos un tamaño más pequeño para las imágenes */
+    width: 200px;  /* Establecemos un tamaño más pequeño para las imágenes */
     height: auto;  /* Mantenemos la proporción de la imagen */
     object-fit: cover;  /* Aseguramos que la imagen se recorte bien si es necesario */
     border-radius: 10px;  /* Bordes redondeados */
@@ -71,7 +71,7 @@
     }
 
     .producto img {
-        width: 100px; /* Ajustamos el tamaño de la imagen */
+        width: 150px; /* Ajustamos el tamaño de la imagen */
     }
 
     .producto h3 {
